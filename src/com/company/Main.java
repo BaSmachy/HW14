@@ -9,5 +9,7 @@ public class Main {
         System.out.println(cal);
 
         }
+  //  Class cal = new Class(10,"Hello world",new int[]{1,2,3,4,5,6,6,}); 2 вариант
+
     }
 
