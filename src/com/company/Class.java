@@ -13,6 +13,10 @@ public class Class {
         this.san = san;
     }
 
+    public Class() {
+
+    }
+
     public int getButunsan() {
         return butunsan;
     }
@@ -29,20 +33,22 @@ public class Class {
         this.soz = soz;
     }
 
-    @Override
-    public String toString() {
-        return
-                "Butunsan " + butunsan +
-                ", soz- " + soz +
-                ", san=" + Arrays.toString(san);
-    }
-
     public int[] getSan() {
         return san;
     }
 
-    public void setSan(int[] san) {
+    public void setSan(int[]san) {
         this.san = san;
+
     }
 
-}
+
+
+//    @Override
+//    public String toString() {
+//        return
+//                "Butunsan " + butunsan +
+//                        ", soz- " + soz +
+//                        ", san=" + Arrays.toString(san);
+    }
+
